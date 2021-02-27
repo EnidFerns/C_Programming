@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main()
+{
+     int i;
+     printf("Enter a choice!\n");
+     scanf("%d",&i);
+     switch (i)
+     {
+	 case 1:
+	 printf("Destination - PARIS  \nFare - Rs 30000");
+     break;
+          case 2:
+             printf("Destination - GERMANY  \nFare - Rs 23900");
+             break;
+          case 3:
+             printf("Destination - AUSTRALIA  \nFare - Rs 17000 ");
+             break;
+          case 4:
+             printf("Destination - SOUTH KOREA \nFare - Rs 19900 ");
+             break;
+          case 5:
+             printf("Destination - TAIWAN  \nFare - Rs 14900 ");
+             break;
+          default:
+             printf("The choice enterred is invalid!");
+     }
+     return 0;
+}
